@@ -1,27 +1,27 @@
-package bean;
+package com.ycl.bean;
 
 import java.util.List;
 
-public class Stduent {
+public class Student {
     private String id;
     private String name;
-    private Stduent stduent;
-    private List<Stduent> list;
+    private Student stduent;
+    private List<Student> list;
 
 
-    public Stduent getStduent() {
+    public Student getStduent() {
         return stduent;
     }
 
-    public void setStduent(Stduent stduent) {
+    public void setStduent(Student stduent) {
         this.stduent = stduent;
     }
 
-    public List<Stduent> getList() {
+    public List<Student> getList() {
         return list;
     }
 
-    public void setList(List<Stduent> list) {
+    public void setList(List<Student> list) {
         this.list = list;
     }
 
