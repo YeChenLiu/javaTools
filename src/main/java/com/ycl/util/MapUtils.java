@@ -98,7 +98,7 @@ public class MapUtils {
         Field[] fields = obj.getClass().getDeclaredFields();    // 获取f对象对应类中的所有属性域
         for (int i = 0, len = fields.length; i < len; i++) {
             String varName = fields[i].getName();
-            varName = varName.toLowerCase();                    // 将key置为小写，默认为对象的属性
+//            varName = varName.toLowerCase();                    // 将key置为小写，默认为对象的属性
             try {
                 boolean accessFlag = fields[i].isAccessible();    // 获取原来的访问控制权限
                 fields[i].setAccessible(true);                    // 修改访问控制权限
